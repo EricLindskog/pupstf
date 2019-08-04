@@ -1,0 +1,77 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Tahoma, Geneva, sans-serif;
+    background-image: url("poop.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    vertical-align: middle;
+    
+}
+#butt {
+    color: blue;
+    background-color: coral;
+}
+#header {
+    background-color: black;
+    opacity: 0.6;
+    font-size: 7vh;
+    text-align: center;
+    vertical-align: middle;
+    height: 10vh;
+    width: 70vw;
+    margin: 0 auto;
+}
+#header div {
+    display: inline-block;
+    opacity: 1;
+    vertical-align: middle;
+    color: white;
+}
+#content {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 90vh;
+    width: 70vw;
+    margin: 0 auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+} 
+.title {
+    opacity: 1;
+    vertical-align: middle;
+    color: white;
+    font-size: 4vh;
+    text-align: center;
+    vertical-align: middle;
+} 
+.player_tbl {
+    opacity: 1;
+    color: white;
+    margin-left:auto; 
+    margin-right:auto;
+    background-color: rgba(30, 30, 30, 0.4);
+}
+.player_tbl tr {
+    margin: 3px 0px 3px 0px;
+    opacity: 1;
+    display: block;
+    width: 30vw;
+}
+.player_tbl tbody tr {
+ 
+    
+    background-color: rgba(60, 60, 60, 1);
+    cursor: pointer;
+}  
+.player_tbl thead tr {
+    background-color: rgba(30, 30, 30, 1);
+}  
+.player_tbl td {
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    width: 10vw;
+}
+.player_tbl th {
+    text-align: center;
+    width: 10vw;
+}
