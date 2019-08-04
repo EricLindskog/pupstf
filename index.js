@@ -13,6 +13,7 @@ function init_roster() {
     $.getJSON("http://api.etf2l.org/team/19821.json",function(data) {
         
         let roster = data.team.players;
+        if(roster==null) return;
         roster_size = roster.length;
         for (let i=0; i<roster_size; i++) {
             let player = roster[i];
