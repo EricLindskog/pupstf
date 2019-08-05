@@ -73,7 +73,7 @@ function createRoster() {
         cell = row.insertCell(1);
         cell.innerHTML = player.role;
         cell = row.insertCell(2);
-        cell.innerHTML = player.classes.toString()
+        cell.innerHTML = player.classes.toString().replace(/,/g, ', ');
         row.onclick = function(){
             window.location = "http://www.etf2l.org/forum/user/"+player.id;
         }

@@ -3,7 +3,7 @@ body {
     padding: 0 !important;
     font-family: Tahoma, Geneva, sans-serif;
     background-image: url("poop.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: 100vw;
     vertical-align: middle;
     
@@ -12,37 +12,42 @@ body {
     color: blue;
     background-color: coral;
 }
+#irl {
+    display: block;
+    width: 474px;
+    margin: 0 auto;
+}
 #header {
     background-color: black;
     opacity: 0.6;
-    font-size: 7vh;
-    text-align: center;
-    vertical-align: middle;
-    height: 10vh;
-    width: 70vw;
-    margin: 0 auto;
+    font-size: 5vh;
+    padding: 1vh 0vh 1vh 0vh;
+    min-width: 500px;
 }
 #header div {
     display: inline-block;
     opacity: 1;
-    vertical-align: middle;
     color: white;
 }
 #content {
     background-color: rgba(0, 0, 0, 0.4);
     height: 90vh;
-    width: 70vw;
-    margin: 0 auto;
     overflow-y: scroll;
     overflow-x: hidden;
-} 
+    min-width: 500px;
+}
+.content {
+    display: block;
+    min-width: 470px;
+    width: 70vw;
+    max-width: 70vw;
+    text-align: center;
+    margin: 0 auto;
+}
 .title {
-    opacity: 1;
-    vertical-align: middle;
+    background-color: rgba(0, 0, 0, 1);
     color: white;
     font-size: 4vh;
-    text-align: center;
-    vertical-align: middle;
 } 
 .player_tbl {
     opacity: 1;
@@ -55,7 +60,8 @@ body {
     margin: 3px 0px 3px 0px;
     opacity: 1;
     display: block;
-    width: 30vw;
+    min-width: 470px;
+    max-width: 30vw;
 }
 .player_tbl tbody tr {
  
@@ -69,9 +75,12 @@ body {
 .player_tbl td {
     margin: 0px 0px 0px 0px;
     text-align: center;
-    width: 10vw;
+    max-width: 15vw;
+    min-width: 150px;
+    font-size: 1.5vh;
 }
 .player_tbl th {
     text-align: center;
-    width: 10vw;
+    max-width: 15vw;
+    min-width: 150px;
 }
